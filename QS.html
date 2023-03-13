@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bacteria Quorum Sensing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="title">Gaoyang Fan</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Current.html">Ongoing Projects</a></li>
+						<li><a href="QS.html" class="active">Bacteria Quorum Sensing</a></li>
+						<li><a href="Networks.html">Noise-induced Synchronization</a></li>
+						<!-- <li><a href="Dynamics.html">Dynamical Systems and Beyond</a></li>-->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper style2">
+						<div class="inner">
+							<h1 class="major">Multi-pathway Bacterial Quorum Sensing</h1>
+							<span class="image left"><img src="images/pic04.jpg" alt="Hawaiian Bobtail Squid"/></span>
+							<p> Quorum sensing (QS) is a form of cell-cell communication that allows bacteria to measure the local population density, and to use this as a cue to regulate gene expression, resulting in various forms of collective bacterial response, including virulence, biofilm formation and bioluminescence. In particular, high population densities lead to high intracellular signal concentrations through diffusive exchange with the extracellular environment, triggering biochemical reactions that activate the expression of QS-controlled genes. Understanding QS leads to many applications, such as reducing marine biofouling by adding non-toxic QS inhibitors in the coating of boats and controlling bacterial infections by manipulating their QS communication systems. </p>
+							<span class="image right"><img src="images/pic05.png" alt="QS in V. harveyi"/></span>
+							<p>Bacterial QS depends on the production, secretion, and detection of signaling molecules known as autoinducers (AIs). In the case of V. harveyi, three kinds of AIs have been identified: HAI-1, CAI-1 and AI-2. Each autoinducer is detected by its corresponding cognate receptor, LuxN, CqsS, and LuxPQ, respectively, and integrated into the phosphorylation-dephosphorylation cycle (PdPC) of a downstream protein LuxU. At a low cell density (LCD), in the absence of AI, an unbound receptor functions as a kinase and phosphorylates the protein LuxU. This leads to the phosphorylation of a second protein LuxO and subsequent activation of small non-coding RNAs (sRNAs) known as qrr 1-5. The latter repress the translation of the mRNA that encodes the master quorum-sensing regulator LuxR, which turns QS expression 'OFF'. On the other hand, at a high cell density (HCD), AI binds to its receptor, switching the action of the latter to a phosphatase, which in turn drains the phosphate group from LuxO and LuxU. This results in the deactivation of the sRNAs and the production of LuxR, which turns QS ‘ON’.</p>
+							<h2> Signal Integration </h2>
+							<p>Having a multi-pathway structure allows the bacteria to intake different types of signal and potentially have a better measurement of its environment. In the following paper [1], we investigate the possible role of parallel signaling pathways by developing a mathematical model of QS in V. harveyi at both the single-cell and population levels. First we explore how signal integration may be achieved at the single-cell level, and how different model parameters influence the process. We then consider two examples of signal integration at the population level: a one-population model responding to two environmental cues (cell density and mass transfer), and a two-population model with distinct cell densities. In each case, we use contraction analysis to reduce the population model to an effective single-cell model.<br /><br />
+[1]  <a href="https://link.springer.com/article/10.1007%2Fs11538-017-0343-9" class='white'>Fan, Gaoyang, and Paul C. Bressloff. Population Model of Quorum Sensing with Multiple Parallel Pathways. Bulletin of mathematical biology 79.11 (2017): 2599-2626.</a></p>
+						<ul class="actions">
+						<li>Key words:</li>
+						<li><h4 class="button primary small">Population Model</h4></li>
+						<li><h4 class="button primary small">Diffusion Sensing</h4></li>
+						<li><h4 class="button primary small">System Reduction</h4></li>
+						</ul>
+
+
+						<h2> Signal Differentiation </h2>
+							<p>Our previous study indicates that the multi-pathway structure allows the bacteria to have a better recognition of their social and physical environment. However, when all pathways are integrated into one PdPC, how do cells differentiate signals? It has been shown that in V. harveyi quorum sensing circuits, there exists a feedback loop involving qrr repressing the production of receptor LuxN <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844700/" class='white'> (Tu, et al., 2010)</a>. Experimental data suggest that the role of the LuxN feedback loop is to adjust the relative sensitivity to AI signals from a low cell density environment to a high cell density environment <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3130561/" class='white'> (Teng, et al., 2011)</a>. In the following paper [2], we propose a weight control mechanism, in which QS uses feedback loops to ‘decode’ the integrated signals by actively changing the sensitivity in different pathways. We first use a slow/fast analysis to reduce a single-cell model to a planar dynamical system involving the concentrations of phosphorylated signaling protein LuxU and a small non-coding RNA. In addition to identifying the weight control mechanism, we show that adding a feedback loop can lead to a bistable QS response in certain parameter regimes. We then combine the slow/fast analysis with a contraction mapping theorem in order to reduce a population model to an effective single-cell model, and show how the weight control mechanism allows bacteria to have a finer discrimination of their social and physical environment.<br /><br />
+						[2] <a href='https://link.springer.com/article/10.1007/s11538-019-00570-8' class='white'> Fan, Gaoyang, and Paul C. Bressloff. Modeling the Role of Feedback in the Adaptive Response of Bacterial Quorum Sensing. Bulletin of mathematical biology (2019) <i>In press</i></a></p>
+
+												<ul class="actions">
+						<li>Key words:</li>
+						<li><h4 class="button primary small">Adaptive Response</h4></li>
+						<li><h4 class="button primary small">Feedback Pathways</h4></li>
+						<li><h4 class="button primary small">Diffusion Sensing</h4></li>
+						</ul>
+
+						<h2> Peer Discussion Article</h2>
+<li><a href='https://naturemicrobiologycommunity.nature.com/channels/303-journal-club/posts/43737-adaptive-response-of-bacterial-quorum-sensing' class='white'> Nature Research Microbiology Community </a></li>
+
+
+							</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper footer-alt";>
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Gaoyang Fan. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

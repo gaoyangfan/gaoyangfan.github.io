@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research | Gaoyang Fan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="title">Gaoyang Fan</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Synbio.html" class="active">Ongoing Projects</a></li>
+						<li><a href="QS.html">Bacteria Quorum Sensing</a></li>
+						<li><a href="Networks.html">Noise-induced Synchronization</a></li>
+						<!-- <li><a href="Dynamics.html">Dynamical Systems and Beyond</a></li>-->
+
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper style2">
+						<div class="inner">
+
+							<span class="image left" style="width:250px;height:250px;"><img src="images/agarlane.png" alt="Agar Lane"/></span>
+							<h2>Signal Sequestration and Effective Diffusion</h2>
+							<p>Many important cellular activities rely on the detection of some diffusive signaling molecules by binding with transcriptional factors. In natural settings, cells grow in both physical and chemical heterogeneous environments. Our mathematical model suggests that the effective diffusion rate can be lowered by the sequestration of the signal. Cells with different levels of transcriptional factor concentration are engineered and placed on agar lanes by Meidi Wang from the <a href="http://biodesign.rice.edu"> Bennett Lab</a> to test the impact of sequestration on signaling distance.
+							</p>
+							<p class="right"> Figure Credit: Meidi Wang</p>
+							<hr />
+
+							<span class="image left" style="width:250px;height:250px;"><img src="images/QSToggle.png" alt="QS Toggle"/></span>
+							<h2>Cell-cell Communication in Bacterial Colony</h2>
+							<p>﻿A Quorum Sensing (QS) toggle was built by Bárbara de Freitas Magalhāes from the <a href="http://biodesign.rice.edu"> Bennett Lab</a> to acquire insight into the development of multicellular systems. Experimental results show that the QS toggle leads to the colony altering its spatial pattern in response to an external signal. We constructed a PDE model to gain an understanding of the spatial-temporal dynamics leading to the establishment of the observed patterns.
+							</p>
+							<p class="right"> Figure Credit: Bárbara de Freitas Magalhāes</p>
+							<hr />
+
+							<span class="image left" style="width:250px;height:250px;"><img src="images/ProducerEnrichment.png" alt="Producer Enrichment"/></span>
+							<h2>Producer Enrichment through Spatial Segration</h2>
+							<p>﻿Ramya Ganiga Prabhakar from the <a href="https://shamoolab.rice.edu/"> Shamoo Lab</a> developed a spatial segregation method using a microfluidics platform to enrich antibiotic producers in a search for new antibiotics. We developed a reduced mathematical model using probability theory to prove the enrichment of the producers, while predicting how changing various parameters in the experiments alter the outcome.
+							</p>
+							<p class="right"> Figure Credit: Ramya Ganiga Prabhakar</p>
+							<hr />
+
+							<span class="image left" style="width:250px;height:250px;"><img src="images/APP.jpg" alt="APP"/></span>
+							<h2>Quorum Sensing Mediated Asymmetric Plasmid Partitioning</h2>
+							<p>﻿I am currently co-mentoring two students, Jayson Cortez (<a href="https://www.math.uh.edu/~josic/research">Josić Group</a>) and Xiao Peng (<a href="http://biodesign.rice.edu">Bennett Lab</a>), on a project aiming to predict and control population dynamics of cell differentiation in various environments. This project is an interdisciplinary effort from both students requiring them to combine experimental design and execution with analytical modeling and computational tools.
+							</p>
+							<p class="right"> Figure Credit: Xiao Peng</p>
+							<hr />
+
+							</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper footer-alt";>
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Gaoyang Fan. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
